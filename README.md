@@ -51,3 +51,10 @@ kobweb run --env prod --notty
 Kobweb also supports exporting to a static layout which is compatible with static hosting providers, such as GitHub
 Pages, Netlify, Firebase, any presumably all the others. You can read more about that approach here:
 https://bitspittle.dev/blog/2022/staticdeploy
+
+
+![login_page](https://github.com/VasylDvorak/EasyBlog/assets/106032465/95833570-3fc8-445d-8184-df0330477090)
+
+
+![main_page](https://github.com/VasylDvorak/EasyBlog/assets/106032465/041808c7-4157-4085-b0be-03b2083e6a51)
+
