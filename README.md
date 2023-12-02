@@ -53,7 +53,7 @@ Pages, Netlify, Firebase, any presumably all the others. You can read more about
 https://bitspittle.dev/blog/2022/staticdeploy
 
 
-![login_page](https://github.com/VasylDvorak/EasyBlog/assets/106032465/95833570-3fc8-445d-8184-df0330477090)
+![login_page](https://github.com/VasylDvorak/EasyBlog/assets/106032465/961f6965-5d55-4b8e-a9a8-cb8b48dad197)
 
 
 ![main_page](https://github.com/VasylDvorak/EasyBlog/assets/106032465/041808c7-4157-4085-b0be-03b2083e6a51)
