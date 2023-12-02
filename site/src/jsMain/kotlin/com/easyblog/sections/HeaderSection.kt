@@ -64,7 +64,7 @@ fun HeaderSection(
             Header(
                 breakpoint = breakpoint,
                 logo = logo,
-             //   selectedCategory = selectedCategory,
+                selectedCategory = selectedCategory,
                 onMenuOpen = onMenuOpen
             )
         }
@@ -75,7 +75,7 @@ fun HeaderSection(
 fun Header(
     breakpoint: Breakpoint,
     logo: String,
-  //  selectedCategory: Category?,
+    selectedCategory: Category?,
     onMenuOpen: () -> Unit
 ) {
     val context = rememberPageContext()
@@ -120,7 +120,7 @@ fun Header(
             )
         }
         if (breakpoint >= Breakpoint.LG) {
-          //  CategoryNavigationItems(selectedCategory = selectedCategory)
+            CategoryNavigationItems(selectedCategory = selectedCategory)
         }
         Spacer()
         SearchBar(

@@ -16,6 +16,7 @@ import com.easyblog.models.ControlStyle
 import com.easyblog.models.EditorControl
 import com.easyblog.models.Post
 import com.easyblog.navigation.Screen
+import com.easyblog.styles.Category
 import com.easyblog.styles.EditorKeyStyle
 import com.easyblog.styles.JsTheme
 import com.easyblog.util.Constants.FONT_FAMILY
@@ -109,7 +110,7 @@ data class CreatePageUiState(
     var thumbnail: String = "",
     var thumbnailInputDisabled: Boolean = true,
     var content: String = "",
-   // var category: Category = Category.Programming,
+    var category: Category = Category.Programming,
     var buttonText: String = "Create",
     var popular: Boolean = false,
     var main: Boolean = false,
@@ -298,8 +299,8 @@ fun CreateScreen() {
                         }
                 )
                 CategoryDropdown(
-                  //  selectedCategory = uiState.category,
-                 //   onCategorySelect = { uiState = uiState.copy(category = it) }
+                    selectedCategory = uiState.category,
+                    onCategorySelect = { uiState = uiState.copy(category = it) }
                 )
                 Row(
                     modifier = Modifier.fillMaxWidth().margin(topBottom = 12.px),
@@ -454,8 +455,8 @@ fun CreateScreen() {
 
 @Composable
 fun CategoryDropdown(
- //   selectedCategory: Category,
-  //  onCategorySelect: (Category) -> Unit
+    selectedCategory: Category,
+    onCategorySelect: (Category) -> Unit
 ) {
     Box(
         modifier = Modifier
@@ -481,7 +482,7 @@ fun CategoryDropdown(
                     .fillMaxWidth()
                     .fontSize(16.px)
                     .fontFamily(FONT_FAMILY),
-                text = "selectedCategory.name"
+                text = selectedCategory.name
             )
             Box(modifier = Modifier.classNames("dropdown-toggle"))
         }
@@ -491,21 +492,21 @@ fun CategoryDropdown(
                 .classNames("dropdown-menu")
                 .toAttrs()
         ) {
-//            Category.entries.forEach { category ->
-//                Li {
-//                    A(
-//                        attrs = Modifier
-//                            .classNames("dropdown-item")
-//                            .color(Colors.Black)
-//                            .fontFamily(FONT_FAMILY)
-//                            .fontSize(16.px)
-//                            .onClick { onCategorySelect(category) }
-//                            .toAttrs()
-//                    ) {
-//                        Text(value = category.name)
-//                    }
-//                }
-//            }
+            Category.entries.forEach { category ->
+                Li {
+                    A(
+                        attrs = Modifier
+                            .classNames("dropdown-item")
+                            .color(Colors.Black)
+                            .fontFamily(FONT_FAMILY)
+                            .fontSize(16.px)
+                            .onClick { onCategorySelect(category) }
+                            .toAttrs()
+                    ) {
+                        Text(value = category.name)
+                    }
+                }
+            }
         }
     }
 }

@@ -176,7 +176,7 @@ fun AddButton() {
                     context.router.navigateTo(Screen.AdminCreate.route)
                 }
                 .styleModifier {
-                   // property("pointer-events", "auto")
+                    property("pointer-events", "auto")
                 },
             contentAlignment = Alignment.Center
         ) {
