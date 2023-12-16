@@ -3,7 +3,7 @@ package com.easyblog.pages.admin
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import com.easyblog.models.Constants.UPDATED_PARAM
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.navigation.Screen
 import com.easyblog.util.Constants.FONT_FAMILY
 import com.easyblog.util.Res

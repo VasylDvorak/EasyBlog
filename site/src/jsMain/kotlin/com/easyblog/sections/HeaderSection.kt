@@ -8,8 +8,8 @@ import androidx.compose.runtime.setValue
 import com.easyblog.components.CategoryNavigationItems
 import com.easyblog.components.SearchBar
 import com.easyblog.navigation.Screen
-import com.easyblog.styles.Category
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.Category
+import com.easyblog.models.JsTheme
 import com.easyblog.util.Constants.HEADER_HEIGHT
 import com.easyblog.util.Constants.PAGE_WIDTH
 import com.easyblog.util.Id

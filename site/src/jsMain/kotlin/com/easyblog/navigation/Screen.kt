@@ -4,7 +4,7 @@ import com.easyblog.models.Constants.CATEGORY_PARAM
 import com.easyblog.models.Constants.POST_ID_PARAM
 import com.easyblog.models.Constants.QUERY_PARAM
 import com.easyblog.models.Constants.UPDATED_PARAM
-import com.easyblog.styles.Category
+import com.easyblog.models.Category
 
 sealed class Screen(val route: String) {
     object AdminHome : Screen(route = "/admin/")

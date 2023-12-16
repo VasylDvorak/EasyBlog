@@ -6,7 +6,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import com.easyblog.models.PostWithoutDetails
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.styles.MainPostPreviewStyle
 import com.easyblog.styles.PostPreviewStyle
 import com.easyblog.util.Constants.FONT_FAMILY
@@ -41,6 +41,7 @@ import com.varabyte.kobweb.compose.ui.modifiers.padding
 import com.varabyte.kobweb.compose.ui.modifiers.size
 import com.varabyte.kobweb.compose.ui.modifiers.textOverflow
 import com.varabyte.kobweb.compose.ui.modifiers.transition
+import com.varabyte.kobweb.compose.ui.modifiers.visibility
 import com.varabyte.kobweb.compose.ui.styleModifier
 import com.varabyte.kobweb.compose.ui.thenIf
 import com.varabyte.kobweb.compose.ui.toAttrs
@@ -226,7 +227,7 @@ fun PostContent(
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-//            CategoryChip(category = post.category, darkTheme = darkTheme)
+           CategoryChip(category = post.category, darkTheme = darkTheme)
             if (selectableMode) {
                 CheckboxInput(
                     checked = checked,

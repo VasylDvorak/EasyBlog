@@ -50,7 +50,7 @@ class MongoDB(private val context: InitApiContext) : MongoRepository {
                 mutableListOf(
                     Updates.set(Post::title.name, post.title),
                     Updates.set(Post::subtitle.name, post.subtitle),
-                   // Updates.set(Post::category.name, post.category),
+                    Updates.set(Post::category.name, post.category),
                     Updates.set(Post::thumbnail.name, post.thumbnail),
                     Updates.set(Post::content.name, post.content),
                     Updates.set(Post::main.name, post.main),
@@ -136,14 +136,14 @@ class MongoDB(private val context: InitApiContext) : MongoRepository {
         category: Category,
         skip: Int
     ): List<PostWithoutDetails> {
-//        return postCollection
-//            .withDocumentClass(PostWithoutDetails::class.java)
-//            .find(Filters.eq(PostWithoutDetails::category.name, category))
-//            .sort(descending(PostWithoutDetails::date.name))
-//            .skip(skip)
-//            .limit(POSTS_PER_PAGE)
-//            .toList()
-        return listOf()
+        return postCollection
+            .withDocumentClass(PostWithoutDetails::class.java)
+            .find(Filters.eq(PostWithoutDetails::category.name, category))
+            .sort(descending(PostWithoutDetails::date.name))
+            .skip(skip)
+            .limit(POSTS_PER_PAGE)
+            .toList()
+
     }
 
     override suspend fun readSelectedPost(id: String): Post {

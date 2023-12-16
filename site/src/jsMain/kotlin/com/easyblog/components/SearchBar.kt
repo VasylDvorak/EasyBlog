@@ -6,11 +6,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.util.Id
 import com.easyblog.util.noBorder
 import com.varabyte.kobweb.compose.css.CSSTransition
 import com.varabyte.kobweb.compose.css.Cursor
+import com.varabyte.kobweb.compose.css.TransitionProperty
 import com.varabyte.kobweb.compose.foundation.layout.Row
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
@@ -77,7 +78,7 @@ fun SearchBar(
                     else if (!focused && darkTheme) JsTheme.Secondary.rgb
                     else JsTheme.LightGray.rgb
                 )
-                .transition(CSSTransition(property = "border", duration = 200.ms)),
+                .transition(CSSTransition(property = TransitionProperty.All, duration = 200.ms)),
             verticalAlignment = Alignment.CenterVertically
         ) {
             FaMagnifyingGlass(

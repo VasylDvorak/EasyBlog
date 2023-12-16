@@ -14,11 +14,11 @@ import com.easyblog.models.ApiResponse
 import com.easyblog.models.Constants.POST_ID_PARAM
 import com.easyblog.models.ControlStyle
 import com.easyblog.models.EditorControl
-import com.easyblog.models.Post
 import com.easyblog.navigation.Screen
-import com.easyblog.styles.Category
+import com.easyblog.models.Category
 import com.easyblog.styles.EditorKeyStyle
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
+import com.easyblog.models.Post
 import com.easyblog.util.Constants.FONT_FAMILY
 import com.easyblog.util.Constants.SIDE_PANEL_WIDTH
 import com.easyblog.util.Id
@@ -101,7 +101,6 @@ import org.w3c.dom.HTMLInputElement
 import org.w3c.dom.HTMLTextAreaElement
 import org.w3c.dom.get
 import kotlin.js.Date
-import com.varabyte.kobweb.compose.style.KobwebComposeStyleSheet.attr
 
 data class CreatePageUiState(
     var id: String = "",
@@ -126,7 +125,7 @@ data class CreatePageUiState(
         subtitle = "",
         thumbnail = "",
         content = "",
-       // category = Category.Programming,
+        category = Category.Programming,
         buttonText = "Create",
         main = false,
         popular = false,
@@ -374,7 +373,7 @@ fun CreateScreen() {
                                             subtitle = uiState.subtitle,
                                             thumbnail = uiState.thumbnail,
                                             content = uiState.content,
-                                          //  category = uiState.category,
+                                            category = uiState.category,
                                             popular = uiState.popular,
                                             main = uiState.main,
                                             sponsored = uiState.sponsored
@@ -392,7 +391,7 @@ fun CreateScreen() {
                                             date = Date.now(),
                                             thumbnail = uiState.thumbnail,
                                             content = uiState.content,
-                                         //   category = uiState.category,
+                                            category = uiState.category,
                                             popular = uiState.popular,
                                             main = uiState.main,
                                             sponsored = uiState.sponsored

@@ -13,10 +13,10 @@ import com.easyblog.components.LoadingIndicator
 import com.easyblog.components.OverflowSidePanel
 import com.easyblog.models.ApiResponse
 import com.easyblog.models.Constants.POST_ID_PARAM
-import com.easyblog.models.Post
 import com.easyblog.sections.FooterSection
 import com.easyblog.sections.HeaderSection
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
+import com.easyblog.models.Post
 import com.easyblog.util.Constants.FONT_FAMILY
 import com.easyblog.util.Constants.SHOW_SECTIONS_PARAM
 import com.easyblog.util.Id
@@ -125,6 +125,8 @@ fun PostPage() {
             is ApiResponse.Error -> {
                 ErrorView(message = (apiResponse as ApiResponse.Error).message)
             }
+
+            else -> {}
         }
         if(showSections) {
             FooterSection()

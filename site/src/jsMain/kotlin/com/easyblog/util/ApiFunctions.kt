@@ -8,11 +8,11 @@ import com.easyblog.models.Constants.POST_ID_PARAM
 import com.easyblog.models.Constants.QUERY_PARAM
 import com.easyblog.models.Constants.SKIP_PARAM
 import com.easyblog.models.Newsletter
-import com.easyblog.models.Post
 import com.easyblog.models.RandomJoke
 import com.easyblog.models.User
 import com.easyblog.models.UserWithoutPassword
-import com.easyblog.styles.Category
+import com.easyblog.models.Category
+import com.easyblog.models.Post
 import com.varabyte.kobweb.browser.api
 import com.varabyte.kobweb.compose.http.http
 import kotlinx.browser.localStorage

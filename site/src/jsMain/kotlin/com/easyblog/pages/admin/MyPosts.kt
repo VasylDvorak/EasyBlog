@@ -15,7 +15,7 @@ import com.easyblog.models.ApiListResponse
 import com.easyblog.models.Constants.POSTS_PER_PAGE
 import com.easyblog.models.Constants.QUERY_PARAM
 import com.easyblog.models.PostWithoutDetails
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.navigation.Screen
 import com.easyblog.util.Constants.FONT_FAMILY
 import com.easyblog.util.Constants.SIDE_PANEL_WIDTH

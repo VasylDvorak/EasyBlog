@@ -3,7 +3,7 @@ package com.easyblog.sections
 import androidx.compose.runtime.Composable
 import com.easyblog.components.PostPreview
 import com.easyblog.models.PostWithoutDetails
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.util.Constants.FONT_FAMILY
 import com.easyblog.util.Constants.PAGE_WIDTH
 import com.varabyte.kobweb.compose.css.FontWeight

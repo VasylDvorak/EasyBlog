@@ -2,9 +2,9 @@ package com.easyblog.components
 
 import androidx.compose.runtime.Composable
 import com.easyblog.navigation.Screen
-import com.easyblog.styles.Category
+import com.easyblog.models.Category
 import com.easyblog.styles.CategoryItemStyle
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.util.Constants
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.css.TextDecorationLine

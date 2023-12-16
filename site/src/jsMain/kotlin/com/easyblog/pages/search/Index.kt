@@ -20,7 +20,7 @@ import com.easyblog.navigation.Screen
 import com.easyblog.sections.FooterSection
 import com.easyblog.sections.HeaderSection
 import com.easyblog.sections.PostsSection
-import com.easyblog.styles.Category
+import com.easyblog.models.Category
 import com.easyblog.util.Constants.FONT_FAMILY
 import com.easyblog.util.Id
 import com.easyblog.util.Res
@@ -125,8 +125,8 @@ fun SearchPage() {
                 content = {
                     CategoryNavigationItems(
                         selectedCategory = if (hasCategoryParam) runCatching {
-                            com.easyblog.styles.Category.valueOf(value)
-                        }.getOrElse { com.easyblog.styles.Category.Programming } else null,
+                            Category.valueOf(value)
+                        }.getOrElse { Category.Programming } else null,
                         vertical = true
                     )
                 }
@@ -135,8 +135,8 @@ fun SearchPage() {
         HeaderSection(
             breakpoint = breakpoint,
             selectedCategory = if (hasCategoryParam) runCatching {
-                com.easyblog.styles.Category.valueOf(value)
-            }.getOrElse { com.easyblog.styles.Category.Programming } else null,
+                Category.valueOf(value)
+            }.getOrElse { Category.Programming } else null,
             logo = Res.Image.logo,
             onMenuOpen = { overflowOpened = true }
         )
@@ -160,8 +160,8 @@ fun SearchPage() {
                     scope.launch {
                         if (hasCategoryParam) {
                             searchPostsByCategory(
-                                category = runCatching { com.easyblog.styles.Category.valueOf(value) }
-                                    .getOrElse { com.easyblog.styles.Category.Programming },
+                                category = runCatching { Category.valueOf(value) }
+                                    .getOrElse { Category.Programming },
                                 skip = postsToSkip,
                                 onSuccess = { response ->
                                     if (response is ApiListResponse.Success) {

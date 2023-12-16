@@ -10,7 +10,7 @@ import com.easyblog.components.AdminPageLayout
 import com.easyblog.components.LoadingIndicator
 import com.easyblog.models.RandomJoke
 import com.easyblog.navigation.Screen
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.util.Constants.FONT_FAMILY
 import com.easyblog.util.Constants.PAGE_WIDTH
 import com.easyblog.util.Constants.SIDE_PANEL_WIDTH

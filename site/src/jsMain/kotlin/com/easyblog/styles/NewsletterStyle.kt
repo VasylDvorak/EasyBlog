@@ -1,5 +1,6 @@
 package com.easyblog.styles
 
+import com.easyblog.models.JsTheme
 import com.varabyte.kobweb.compose.css.CSSTransition
 import com.varabyte.kobweb.compose.css.TransitionProperty
 import com.varabyte.kobweb.compose.ui.Modifier

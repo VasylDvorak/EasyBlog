@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import com.easyblog.components.PostPreview
 import com.easyblog.models.ApiListResponse
 import com.easyblog.models.PostWithoutDetails
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.util.Constants.PAGE_WIDTH
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.foundation.layout.Column
@@ -48,6 +48,7 @@ fun MainSection(
                 }
 
                 is ApiListResponse.Error -> {}
+                else -> {}
             }
         }
     }

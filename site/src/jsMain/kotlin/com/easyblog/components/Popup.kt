@@ -2,14 +2,13 @@ package com.easyblog.components
 
 import androidx.compose.runtime.Composable
 import com.easyblog.models.EditorControl
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.util.Constants.FONT_FAMILY
 import com.easyblog.util.Id
 import com.easyblog.util.noBorder
 import com.varabyte.kobweb.compose.css.TextAlign
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.foundation.layout.Column
-import com.varabyte.kobweb.compose.style.KobwebComposeStyleSheet.attr
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.graphics.Colors

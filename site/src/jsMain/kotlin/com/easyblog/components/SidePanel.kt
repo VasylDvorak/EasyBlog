@@ -8,7 +8,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import com.easyblog.navigation.Screen
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.styles.NavigationItemStyle
 import com.easyblog.util.Constants.COLLAPSED_PANEL_HEIGHT
 import com.easyblog.util.Constants.FONT_FAMILY

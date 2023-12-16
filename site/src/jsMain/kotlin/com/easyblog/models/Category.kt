@@ -1,4 +1,4 @@
-package com.easyblog.styles
+package com.easyblog.models
 
 import com.varabyte.kobweb.compose.ui.graphics.Color
 import com.varabyte.kobweb.compose.ui.graphics.Color.Companion.rgb
@@ -6,7 +6,7 @@ import com.varabyte.kobweb.compose.ui.graphics.Color.Companion.rgba
 import kotlinx.serialization.Serializable
 
 @Serializable
-enum class Category(override val color: String): CategoryColor {
+actual enum class Category(val color: String){
     Technology(color = JsTheme.Green.hex),
     Programming(color = JsTheme.Yellow.hex),
     Design(color = JsTheme.Purple.hex)
@@ -73,6 +73,6 @@ enum class JsTheme(
         rgb = rgb(r = 51, g = 0, b = 255)
     )
 }
-interface CategoryColor {
-    val color: String
-}
+//interface CategoryColor {
+//    val color: String
+//}

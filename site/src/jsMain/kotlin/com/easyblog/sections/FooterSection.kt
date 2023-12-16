@@ -1,7 +1,7 @@
 package com.easyblog.sections
 
 import androidx.compose.runtime.Composable
-import com.easyblog.styles.JsTheme
+import com.easyblog.models.JsTheme
 import com.easyblog.util.Constants.FONT_FAMILY
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.foundation.layout.Row
@@ -32,14 +32,14 @@ fun FooterSection() {
                     .fontFamily(FONT_FAMILY)
                     .fontSize(14.px)
                     .color(Colors.White),
-                text = "Copyright © 2023 • "
+                text = ""
             )
             SpanText(
                 modifier = Modifier
                     .fontFamily(FONT_FAMILY)
                     .fontSize(14.px)
                     .color(JsTheme.Primary.rgb),
-                text = "Stevdza-San"
+                text = ""
             )
         }
     }
