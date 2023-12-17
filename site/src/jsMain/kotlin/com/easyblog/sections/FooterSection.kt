@@ -32,14 +32,14 @@ fun FooterSection() {
                     .fontFamily(FONT_FAMILY)
                     .fontSize(14.px)
                     .color(Colors.White),
-                text = ""
+                text = "Simple Blog"
             )
             SpanText(
                 modifier = Modifier
                     .fontFamily(FONT_FAMILY)
                     .fontSize(14.px)
                     .color(JsTheme.Primary.rgb),
-                text = ""
+                text = " 2023"
             )
         }
     }
