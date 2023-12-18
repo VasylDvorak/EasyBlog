@@ -3,8 +3,6 @@
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 F
 site/.kobweb/conf.yaml,e\3\e30a81194090969ab7ebea4328650e2009b9a28f
-A
-gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
 ;
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 7
@@ -17,8 +15,6 @@ S
 local.properties,0\7\0712df971a99ac4d2fccb8e0fb19f377f3374cca
 Y
 )site/src/jsMain/resources/public/bold.svg,b\1\b11f3141acf0259a539599cbd73408cc9922d24b
-@
-build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
 ^
 .site/src/jsMain/resources/public/checkmark.svg,0\6\064c6ddf3c6ac74d9fc1b9fcd0c99a5f867e1a96
 Y
@@ -33,8 +29,6 @@ Y
 )site/src/jsMain/resources/public/logo.svg,4\5\45bb69621a61cd1798a1df1476a2d273a38ac548
 Z
 *site/src/jsMain/resources/public/quote.svg,8\f\8fe1673cf9c17369f551226de5f6e7aa46215675
-C
-settings.gradle.kts,7\4\749edfcc96398253e5b3416184e95c46621da850
 Å
 Q.idea/sonarlint/securityhotspotstore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9,1\e\1e45613b6060de813dc92caeb118e08a2124bc35
 Å
@@ -127,8 +121,6 @@ G.idea/sonarlint/issuestore/4/5/45bb69621a61cd1798a1df1476a2d273a38ac548,5\2\52
 Q.idea/sonarlint/securityhotspotstore/7/4/749edfcc96398253e5b3416184e95c46621da850,a\2\a23c5826b9e43ac800045078039410ea3817eb39
 w
 G.idea/sonarlint/issuestore/4/0/40e431938d13bd1f8ae75e0e82057f620c193046,2\e\2e2f1f7075f059fff5d568e7591379428564541a
-I
-gradle/libs.versions.toml,d\7\d7595319a0658be6f1ed500ad590d42e4b28bc4f
 a
 1site/src/jsMain/resources/public/highlight.min.js,7\d\7d20d0d4ddd4d082d319975f1db2227b56780341
 `
@@ -143,8 +135,6 @@ c
 3site/src/jvmMain/kotlin/com/easyblog/models/User.kt,9\c\9c06156c185e009c342cd29a3207cd4d710f51ed
 l
 <site/src/jvmMain/kotlin/com/easyblog/data/MongoRepository.kt,c\7\c7f6396fbee4176fbcf3c663a461894270d71e65
-E
-site/build.gradle.kts,4\1\410314d84f3e2626a06ebc12be9c1fda9f83b530
 f
 6site/src/jvmMain/kotlin/com/easyblog/api/Newsletter.kt,d\2\d29393e3831ef7613c091aabefc1663325e664da
 \
@@ -169,8 +159,6 @@ n
 >site/src/jsMain/kotlin/com/easyblog/components/CategoryChip.kt,a\2\a2cb33b4fdfd8e354843390ac5b768b9eb24445d
 f
 6site/src/jvmMain/kotlin/com/easyblog/util/Constants.kt,2\a\2a17daf862125543f2f71cf41c5b61ad9723831c
-i
-9site/src/jsMain/kotlin/com/easyblog/styles/CreateStyle.kt,7\9\79d6c18a1492ddf2e11382f9342e4e9bd868da0a
 i
 9site/src/jsMain/kotlin/com/easyblog/styles/HeaderStyle.kt,d\4\d4ccd5bbec5fde84d844730c98e9d4e6619c585b
 h
