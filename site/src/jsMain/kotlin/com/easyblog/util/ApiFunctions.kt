@@ -130,6 +130,7 @@ suspend fun fetchMainPosts(
 ) {
     try {
         val result = window.api.tryGet(apiPath = "readmainposts")?.decodeToString()
+
         onSuccess(result.parseData())
     } catch (e: Exception) {
         println(e)

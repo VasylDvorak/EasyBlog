@@ -46,7 +46,7 @@ fun HomePage() {
     LaunchedEffect(Unit) {
         fetchMainPosts(
             onSuccess = { mainPosts = it },
-            onError = {}
+            onError = { }
         )
         fetchLatestPosts(
             skip = latestPostsToSkip,
