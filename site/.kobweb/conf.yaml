@@ -10,5 +10,9 @@ server:
     prod:
       script: "build/dist/js/productionExecutable/easyblog.js"
       siteRoot: ".kobweb/site"
-
+  cors:
+    hosts:
+      - name: "easyblogsite.onrender.com"
+        schemes:
+          - "https"
   port: 8080

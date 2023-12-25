@@ -1,6 +1,8 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+F
+site/.kobweb/conf.yaml,e\3\e30a81194090969ab7ebea4328650e2009b9a28f
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
 ;
@@ -11,6 +13,8 @@ Z
 *site/src/jsMain/resources/public/quote.svg,8\f\8fe1673cf9c17369f551226de5f6e7aa46215675
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+@
+build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 Y
@@ -121,6 +125,8 @@ G.idea/sonarlint/issuestore/4/5/45bb69621a61cd1798a1df1476a2d273a38ac548,5\2\52
 Q.idea/sonarlint/securityhotspotstore/7/4/749edfcc96398253e5b3416184e95c46621da850,a\2\a23c5826b9e43ac800045078039410ea3817eb39
 w
 G.idea/sonarlint/issuestore/4/0/40e431938d13bd1f8ae75e0e82057f620c193046,2\e\2e2f1f7075f059fff5d568e7591379428564541a
+I
+gradle/libs.versions.toml,d\7\d7595319a0658be6f1ed500ad590d42e4b28bc4f
 a
 1site/src/jsMain/resources/public/highlight.min.js,7\d\7d20d0d4ddd4d082d319975f1db2227b56780341
 `
@@ -135,6 +141,8 @@ c
 3site/src/jvmMain/kotlin/com/easyblog/models/User.kt,9\c\9c06156c185e009c342cd29a3207cd4d710f51ed
 l
 <site/src/jvmMain/kotlin/com/easyblog/data/MongoRepository.kt,c\7\c7f6396fbee4176fbcf3c663a461894270d71e65
+E
+site/build.gradle.kts,4\1\410314d84f3e2626a06ebc12be9c1fda9f83b530
 f
 6site/src/jvmMain/kotlin/com/easyblog/api/Newsletter.kt,d\2\d29393e3831ef7613c091aabefc1663325e664da
 \

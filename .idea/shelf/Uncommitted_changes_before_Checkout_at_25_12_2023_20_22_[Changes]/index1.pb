@@ -1,6 +1,8 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+F
+site/.kobweb/conf.yaml,e\3\e30a81194090969ab7ebea4328650e2009b9a28f
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
 ;
@@ -121,6 +123,8 @@ G.idea/sonarlint/issuestore/4/5/45bb69621a61cd1798a1df1476a2d273a38ac548,5\2\52
 Q.idea/sonarlint/securityhotspotstore/7/4/749edfcc96398253e5b3416184e95c46621da850,a\2\a23c5826b9e43ac800045078039410ea3817eb39
 w
 G.idea/sonarlint/issuestore/4/0/40e431938d13bd1f8ae75e0e82057f620c193046,2\e\2e2f1f7075f059fff5d568e7591379428564541a
+I
+gradle/libs.versions.toml,d\7\d7595319a0658be6f1ed500ad590d42e4b28bc4f
 a
 1site/src/jsMain/resources/public/highlight.min.js,7\d\7d20d0d4ddd4d082d319975f1db2227b56780341
 `
