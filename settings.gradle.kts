@@ -11,3 +11,5 @@ pluginManagement {
 rootProject.name = "easyblog"
 
 include(":site")
+include(":androidapp")
+include(":shared")
