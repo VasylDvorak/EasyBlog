@@ -2,7 +2,7 @@ The project consists of internet site of Blog, where user can create messages an
 of messages from the BLOG site.
 
 
-The used technologies: Kotlin Multi Platform, Jack Pack Compose, Kobweb, MongoDB, Atlas DB, WebView, Render.
+The used technologies: Kotlin Multi Platform, Jack Pack Compose, Kobweb, MongoDB, Atlas DB, WebView, Render, Navigation Drawer.
 
 
 
